@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Cleaning Service</title>
+
+    <link rel="stylesheet" href="home1.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+    <nav class="navbar">
+     <div class="logo">
+        <h2>EcoClean</h2>
+     </div>
+    <ul class="nav-links">
+      <li class="dropdown">
+        <a href='/'>Home ▾</a>
+        <div class="dropdown-menu">
+          <a href='/'>Home 1</a>
+          <a href="home2.html">Home 2</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li class="mobile-login-wrap">
+        <a class='mobile-login' href='/login'>Login</a>
+      </li>
+    </ul>
+    <div class="nav-buttons">
+      <button class="btn" onclick="enableRTL()">RTL</button>
+       <button class="logo-btn" type="button">
+      <div class="moon"></div>
+    </button>
+    <button class="btn login-btn" onclick="openLoginPage()">
+    Login
+    </button>
+    </div>
+     <div class="menu-btn" id="menuBtn">
+        ☰
+    </div>
+</nav>
+</header>
+
+<section class="hero2">
+  <div class="hero2-overlay"></div>
+  <div class="hero2-container">
+    <div class="hero2-content">
+      <span class="hero-badge">
+        <i class="fa-solid fa-leaf"></i>
+        Eco-Friendly Cleaning Experts
+      </span>
+      <h1>
+        A Cleaner Home,<br>
+        A <span>Healthier Life</span>
+      </h1>
+      <p>
+        Experience premium eco-friendly cleaning services designed for modern homes.
+        Safe for kids, pets, and the planet.
+      </p>
+      <div class="hero2-buttons">
+        <a href="#" class="btn primary">
+          <i class="fa-solid fa-calendar-check"></i>
+          Book Service
+        </a>
+        <a href="#" class="btn secondary">
+          <i class="fa-solid fa-file-invoice-dollar"></i>
+          Get Free Quote
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <i class="fa-solid fa-house"></i>
+          <h3>500+</h3>
+          <p>Homes Cleaned</p>
+        </div>
+        <div class="stat">
+          <i class="fa-solid fa-face-smile"></i>
+          <h3>98%</h3>
+          <p>Happy Clients</p>
+        </div>
+        <div class="stat">
+          <i class="fa-solid fa-leaf"></i>
+          <h3>100%</h3>
+          <p>Eco Safe</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="eco-promise">
+  <div class="eco-container">
+    <h2 class="eco-title">Eco-Cleaning Promise</h2>
+    <p class="eco-subtitle">
+      A healthier home starts with safer cleaning. We deliver powerful results using eco-conscious methods designed for your family and the environment.
+    </p>
+    <div class="eco-grid">
+      <div class="eco-card">
+        <div class="eco-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2C8 6 6 10 6 14a6 6 0 0 0 12 0c0-4-2-8-6-12z"></path>
+          </svg>
+        </div>
+        <h3>Non-Toxic Products</h3>
+        <p>Plant-based cleaning solutions that protect your home from harsh chemicals and toxins.</p>
+      </div>
+      <div class="eco-card">
+        <div class="eco-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 3h18v2H3V3zm2 4h14v14H5V7z"></path>
+          </svg>
+        </div>
+        <h3>Sustainable Practices</h3>
+        <p>Eco-friendly methods that reduce waste, conserve water, and support a greener planet.</p>
+      </div>
+      <div class="eco-card">
+        <div class="eco-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 21c4-4 8-8 8-12a8 8 0 0 0-16 0c0 4 4 8 8 12z"></path>
+          </svg>
+        </div>
+        <h3>Healthier Living Spaces</h3>
+        <p>We remove dust, allergens, and hidden pollutants for cleaner indoor air quality.</p>
+      </div>
+      <div class="eco-card">
+        <div class="eco-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"></path>
+          </svg>
+        </div>
+        <h3>Professional Care</h3>
+        <p>Trained cleaning specialists ensure consistent, high-quality results every time.</p>
+      </div>
+    </div>
+    <div class="eco-cta">
+      <a href="#booking" class="eco-button">Book an Eco Clean</a>
+    </div>
+  </div>
+</section>
+
+<section class="services-alt">
+  <div class="services-alt-container">
+    <div class="services-alt-header">
+      <h2>Signature Cleaning Services</h2>
+      <p>
+        Eco-friendly, precision-driven cleaning solutions designed for every corner of your home.
+      </p>
+    </div>
+    <div class="services-alt-layout">
+      <div class="services-list">
+        <div class="service-item active">
+          <span class="service-number">01</span>
+          <div>
+            <h3>Regular Home Cleaning</h3>
+            <p>Consistent upkeep for a fresh, healthy living space every day.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <span class="service-number">02</span>
+          <div>
+            <h3>Deep Cleaning</h3>
+            <p>Detailed cleaning for kitchens, bathrooms, and hidden dirt zones.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <span class="service-number">03</span>
+          <div>
+            <h3>Move-in / Move-out Cleaning</h3>
+            <p>Complete home reset for a fresh start before or after moving.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <span class="service-number">04</span>
+          <div>
+            <h3>Sofa & Carpet Cleaning</h3>
+            <p>Eco-safe fabric treatment to remove stains, dust, and allergens.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <span class="service-number">05</span>
+          <div>
+            <h3>Custom Cleaning Plans</h3>
+            <p>Personalized cleaning solutions tailored to your home needs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="services-visual">
+        <div class="visual-overlay">
+          <h3>Eco Precision Cleaning</h3>
+          <p>
+            Every service is executed using non-toxic, sustainable methods that ensure deep cleanliness without harming your environment.
+          </p>
+          <a href="#booking" class="services-btn">Book Service</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process-section">
+  <div class="process-container">
+    <div class="process-heading">
+      <span class="process-tag">How We Work</span>
+      <h2>Our Eco Cleaning Process</h2>
+      <p>
+        A streamlined cleaning experience focused on sustainability,
+        precision, and healthier living spaces.
+      </p>
+    </div>
+    <div class="process-wrapper">
+      <div class="process-left">
+        <div class="process-item">
+          <div class="process-index">01</div>
+          <div class="process-info">
+            <h3>Consultation & Planning</h3>
+            <p>
+              We understand your cleaning needs and create a personalized eco-cleaning approach.
+            </p>
+          </div>
+        </div>
+        <div class="process-item">
+          <div class="process-index">02</div>
+          <div class="process-info">
+            <h3>Eco Product Preparation</h3>
+            <p>
+              Safe, non-toxic products are selected carefully based on your home environment.
+            </p>
+          </div>
+        </div>
+        <div class="process-item">
+          <div class="process-index">03</div>
+          <div class="process-info">
+            <h3>Deep Precision Cleaning</h3>
+            <p>
+              Our specialists clean systematically to ensure complete hygiene and freshness.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="process-center">
+        <div class="center-circle">
+          <span>ECO</span>
+        </div>
+      </div>
+      <div class="process-right">
+        <div class="process-item">
+          <div class="process-index">04</div>
+          <div class="process-info">
+            <h3>Detail Finishing</h3>
+            <p>
+              We refine every detail, targeting hidden dust, allergens, and high-touch surfaces.
+            </p>
+          </div>
+        </div>
+        <div class="process-item">
+          <div class="process-index">05</div>
+          <div class="process-info">
+            <h3>Quality Inspection</h3>
+            <p>
+              Final walkthrough ensures consistent quality and complete customer satisfaction.
+            </p>
+          </div>
+        </div>
+        <div class="process-item">
+          <div class="process-index">06</div>
+          <div class="process-info">
+            <h3>Fresh Home Experience</h3>
+            <p>
+              Enjoy a cleaner, healthier, and eco-conscious living environment after every visit.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="value-section">
+  <div class="value-container">
+    <div class="value-content">
+      <span class="value-label">
+        Why Choose Us
+      </span>
+      <h2>
+        Premium Eco Cleaning Designed For Modern Living
+      </h2>
+      <p class="value-description">
+        We combine sustainable cleaning methods with professional precision
+        to create healthier, fresher, and safer living environments without
+        compromising on quality.
+      </p>
+      <div class="value-points">
+        <div class="value-item">
+          <span class="value-number">01</span>
+          <div>
+            <h3>Non-Toxic Cleaning</h3>
+            <p>
+              Safe plant-based products that protect your home,
+              family, and indoor air quality.
+            </p>
+          </div>
+        </div>
+        <div class="value-item">
+          <span class="value-number">02</span>
+          <div>
+            <h3>Trained Specialists</h3>
+            <p>
+              Experienced eco-cleaning professionals delivering
+              consistent high-quality results.
+            </p>
+          </div>
+        </div>
+        <div class="value-item">
+          <span class="value-number">03</span>
+          <div>
+            <h3>Sustainable Approach</h3>
+            <p>
+              Eco-conscious cleaning systems designed to reduce
+              waste and environmental impact.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a href="#booking" class="value-btn">
+        Book Your Cleaning
+      </a>
+    </div>
+    <div class="value-visual">
+      <div class="visual-box">
+        <span>100%</span>
+        <p>Eco-Friendly Products</p>
+      </div>
+      <div class="visual-box">
+        <span>24/7</span>
+        <p>Flexible Scheduling</p>
+      </div>
+      <div class="visual-box">
+        <span>500+</span>
+        <p>Homes Cleaned</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="packages-section">
+  <div class="packages-container">
+    <div class="packages-header">
+      <span class="packages-label">Pricing Plans</span>
+      <h2>
+        Service Packages
+      </h2>
+      <p>
+        Flexible eco-cleaning plans designed for different home sizes,
+        lifestyles, and cleaning needs.
+      </p>
+    </div>
+    <div class="packages-wrapper">
+      <div class="package-item">
+        <div class="package-top">
+          <span class="package-type">Essential Care</span>
+          <div class="package-price">
+            ₹1,499
+          </div>
+          <p class="package-desc">
+            Perfect for regular home maintenance and weekly freshness.
+          </p>
+        </div>
+        <ul class="package-features">
+          <li>Living Room Cleaning</li>
+          <li>Kitchen Surface Cleaning</li>
+          <li>Bathroom Sanitization</li>
+          <li>Dust Removal</li>
+          <li>Eco-Friendly Products</li>
+        </ul>
+        <a href="#booking" class="package-btn">
+          Choose Plan
+        </a>
+      </div>
+      <div class="package-item featured-package">
+        <div class="featured-badge">
+          Most Popular
+        </div>
+        <div class="package-top">
+          <span class="package-type">Deep Eco Restore</span>
+          <div class="package-price">
+            ₹3,499
+          </div>
+          <p class="package-desc">
+            Intensive eco-cleaning for kitchens, bathrooms, and hidden dirt areas.
+          </p>
+        </div>
+        <ul class="package-features">
+          <li>Complete Deep Cleaning</li>
+          <li>Kitchen Degreasing</li>
+          <li>Bathroom Deep Sanitization</li>
+          <li>Floor & Corner Detailing</li>
+          <li>Eco-Safe Disinfection</li>
+        </ul>
+        <a href="#booking" class="package-btn">
+          Choose Plan
+        </a>
+      </div>
+      <div class="package-item">
+        <div class="package-top">
+          <span class="package-type">Premium Home Reset</span>
+          <div class="package-price">
+            ₹5,999
+          </div>
+          <p class="package-desc">
+            Complete luxury cleaning experience for total home transformation.
+          </p>
+        </div>
+        <ul class="package-features">
+          <li>Whole Home Deep Cleaning</li>
+          <li>Sofa & Carpet Care</li>
+          <li>Premium Surface Treatment</li>
+          <li>Allergen Reduction</li>
+          <li>Priority Scheduling</li>
+        </ul>
+        <a href="#booking" class="package-btn">
+          Choose Plan
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews-section">
+  <div class="reviews-container">
+    <div class="reviews-header">
+      <span class="reviews-tag">Client Feedback</span>
+      <h2>Testimonials & Reviews</h2>
+    </div>
+    <div class="reviews-timeline">
+      <div class="review-step">
+        <div class="review-number">
+          01
+        </div>
+        <div class="review-content">
+          <div class="review-top">
+            <img src="images/client-1.jpg" alt="Client">
+            <div>
+              <h3>Sarah Johnson</h3>
+              <span>Homeowner</span>
+            </div>
+          </div>
+          <p>
+            The team completely transformed my home. Everything felt fresh,
+            clean, and naturally safe for my kids and pets.
+          </p>
+        </div>
+      </div>
+      <div class="review-step">
+        <div class="review-number">
+          02
+        </div>
+        <div class="review-content">
+          <div class="review-top">
+            <img src="images/client-2.jpg" alt="Client">
+            <div>
+              <h3>David Miller</h3>
+              <span>Apartment Resident</span>
+            </div>
+          </div>
+          <p>
+            Professional service with impressive attention to detail.
+            Their eco-friendly process truly stands out.
+          </p>
+        </div>
+      </div>
+      <div class="review-step">
+        <div class="review-number">
+          03
+        </div>
+        <div class="review-content">
+          <div class="review-top">
+            <img src="images/client-3.jpg" alt="Client">
+            <div>
+              <h3>Emily Carter</h3>
+              <span>Interior Designer</span>
+            </div>
+          </div>
+          <p>
+            One of the best cleaning experiences I’ve had. The home looked
+            spotless while maintaining a fresh natural atmosphere.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h2>EcoClean</h2>
+      <p>
+        Professional eco-friendly home cleaning services
+        for a healthier and happier living space.
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-services">
+      <h3>Services</h3>
+      <ul>
+        <li>Deep Cleaning</li>
+        <li>Move-In Cleaning</li>
+        <li>Office Cleaning</li>
+        <li>Eco Sanitization</li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>Email: info@ecoclean.com</p>
+      <p>Phone: +91 98765 43210</p>
+      <p>Available: Mon - Sat</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 EcoClean. All Rights Reserved.</p>
+     <div class="footer-links-1">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+     </div>
+  </div>
+</footer>
+
+</body>
+</html>

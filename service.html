@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Cleaning Service</title>
+
+    <link rel="stylesheet" href="service.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+     <header class="header">
+  <nav class="navbar">
+     <div class="logo">
+        <h2>EcoClean</h2>
+      </div>
+      <ul class="nav-links">
+      <li class="dropdown">
+        <a href='/'>Home ▾</a>
+        <div class="dropdown-menu">
+          <a href='index.html'>Home 1</a>
+          <a href="home1.html">Home 2</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li class="mobile-login-wrap">
+        <a class='mobile-login' href='/login'>Login</a>
+      </li>
+      </ul>
+      <div class="nav-buttons">
+      <button class="btn" onclick="enableRTL()">RTL</button>
+       <button class="logo-btn" type="button">
+       <div class="moon"></div>
+      </button>
+    <button class="btn login-btn" onclick="openLoginPage()">
+      Login
+    </button>
+    </div>
+     <div class="menu-btn" id="menuBtn">
+        ☰
+    </div>
+</nav>
+</header>
+
+<section class="hero">
+  <div class="hero-container">
+    <div class="hero-content">
+      <span class="hero-badge">
+        Premium Service
+      </span>
+      <h1>
+        Transform Your Business with Expert Solutions
+      </h1>
+      <p class="hero-subtitle">
+        We help businesses grow with tailored services, modern strategies,
+        and reliable support designed for real results.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">
+          Get Free Consultation
+        </a>
+        <a href="#services" class="btn btn-secondary">
+          Learn More
+        </a>
+      </div>
+
+      <div class="hero-features">
+        <div class="feature">
+          <i class="fa-solid fa-bolt"></i>
+          <span>Fast Delivery</span>
+        </div>
+
+        <div class="feature">
+          <i class="fa-solid fa-users"></i>
+          <span>Expert Team</span>
+        </div>
+
+        <div class="feature">
+          <i class="fa-solid fa-tags"></i>
+          <span>Transparent Pricing</span>
+        </div>
+
+        <div class="feature">
+          <i class="fa-solid fa-headset"></i>
+          <span>Ongoing Support</span>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <h3>500+</h3>
+          <p>Projects Completed</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>98%</h3>
+          <p>Client Satisfaction</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>10+</h3>
+          <p>Years Experience</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="images/hero-img1.jpg" alt="Professional Services" />
+    </div>
+  </div>
+</section>
+
+<section class="overview">
+  <div class="overview-container">
+    <div class="overview-content">
+      <span class="section-badge">About Our Service</span>
+      <h2>
+        We Build Smart Solutions That Help Your Business Grow
+      </h2>
+      <p>
+        We are a results-driven service company focused on delivering high-quality,
+        customized solutions for businesses of all sizes. Our goal is to simplify
+        your workflow, improve efficiency, and help you achieve measurable growth.
+      </p>
+
+      <p>
+        With a team of experienced professionals, we combine strategy, creativity,
+        and technology to deliver services that make a real impact.
+      </p>
+
+      <div class="overview-actions">
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+        <a href="#servicedtl.html" class="btn btn-secondary">View Services</a>
+      </div>
+    </div>
+
+    <div class="overview-cards">
+      <div class="info-card">
+        <i class="fa-solid fa-rocket"></i>
+        <h3>Fast Execution</h3>
+        <p>Quick turnaround without compromising quality.</p>
+      </div>
+
+      <div class="info-card">
+        <i class="fa-solid fa-shield-halved"></i>
+        <h3>Trusted Process</h3>
+        <p>Secure and reliable service workflow.</p>
+      </div>
+
+      <div class="info-card">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3>Growth Focused</h3>
+        <p>Strategies designed to increase your revenue.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="problems">
+  <div class="problems-container">
+
+    <div class="problems-header">
+      <span class="section-badge">Problems We Solve</span>
+      <h2>We Help You Overcome Business Challenges</h2>
+      <p>
+        Many businesses struggle with growth, visibility, and efficiency.
+        We solve these problems with smart, tailored solutions.
+      </p>
+    </div>
+
+    <div class="problems-grid">
+
+      <div class="problem-card">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3>Low Business Growth</h3>
+        <p>We create strategies that increase leads, sales, and overall revenue.</p>
+      </div>
+
+      <div class="problem-card">
+        <i class="fa-solid fa-eye-slash"></i>
+        <h3>Low Online Visibility</h3>
+        <p>We improve your online presence so customers can easily find you.</p>
+      </div>
+
+      <div class="problem-card">
+        <i class="fa-solid fa-gears"></i>
+        <h3>Inefficient Processes</h3>
+        <p>We streamline workflows to save time and improve productivity.</p>
+      </div>
+
+      <div class="problem-card">
+        <i class="fa-solid fa-wallet"></i>
+        <h3>High Operational Costs</h3>
+        <p>We optimize systems to reduce unnecessary expenses and boost profits.</p>
+      </div>
+
+      <div class="problem-card">
+        <i class="fa-solid fa-users-slash"></i>
+        <h3>Low Customer Engagement</h3>
+        <p>We help you build stronger relationships with your audience.</p>
+      </div>
+
+      <div class="problem-card">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <h3>Unclear Strategy</h3>
+        <p>We provide clear roadmaps to help you grow with confidence.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="features-image">
+  <div class="features-container">
+    <div class="features-image-box">
+      <img src="images/service.jpg" alt="Business Growth" />
+    </div>
+    <div class="features-content">
+      <span class="section-badge">Features & Benefits</span>
+      <h2>
+        Everything You Need to Scale Your Business
+      </h2>
+      <p class="intro">
+        We provide powerful solutions that help you grow faster, work smarter,
+        and achieve better results with less effort.
+      </p>
+      <div class="feature-list">
+        <div class="feature-item">
+          <i class="fa-solid fa-bolt"></i>
+          <div>
+            <h3>Fast Performance</h3>
+            <p>Optimized systems for speed and efficiency.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <i class="fa-solid fa-shield-halved"></i>
+          <div>
+            <h3>Secure Solutions</h3>
+            <p>Strong protection for your business data.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <i class="fa-solid fa-chart-line"></i>
+          <div>
+            <h3>Business Growth</h3>
+            <p>Strategies focused on increasing revenue.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <i class="fa-solid fa-headset"></i>
+          <div>
+            <h3>24/7 Support</h3>
+            <p>Always available help whenever you need it.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="why-alt">
+  <div class="why-alt-container">
+    <div class="why-alt-header">
+      <span class="section-badge">Why Choose Us</span>
+      <h2>Built for Performance & Trust</h2>
+      <p>
+        We focus on delivering real business value through quality, speed, and reliability.
+      </p>
+    </div>
+    <div class="why-flow">
+      <div class="flow-item left">
+        <i class="fa-solid fa-bolt"></i>
+        <div>
+          <h3>Fast Execution</h3>
+          <p>We complete projects quickly with high efficiency.</p>
+        </div>
+      </div>
+
+      <div class="flow-item right">
+        <i class="fa-solid fa-shield-halved"></i>
+        <div>
+          <h3>Secure Systems</h3>
+          <p>Your data and business are always fully protected.</p>
+        </div>
+      </div>
+
+      <div class="flow-item left">
+        <i class="fa-solid fa-chart-line"></i>
+        <div>
+          <h3>Growth Driven</h3>
+          <p>Everything is built to increase your business performance.</p>
+        </div>
+      </div>
+
+      <div class="flow-item right">
+        <i class="fa-solid fa-headset"></i>
+        <div>
+          <h3>Reliable Support</h3>
+          <p>We stay available whenever you need assistance.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="testimonials-container">
+    <div class="testimonials-header">
+      <span class="section-badge">Testimonials</span>
+      <h2>What Our Clients Say</h2>
+      <p>
+        Real feedback from clients who experienced growth with our services.
+      </p>
+    </div>
+    <div class="testimonial-wrapper">
+      <div class="testimonial">
+        <div class="quote-icon">
+          <i class="fa-solid fa-quote-left"></i>
+        </div>
+        <p class="testimonial-text">
+          “The team delivered an amazing website that completely transformed our online presence.
+          We saw a huge increase in leads within weeks.”
+        </p>
+        <div class="client-info">
+          <img src="images/client-2.jpg" alt="Client" />
+          <div>
+            <h3>Rahul Sharma</h3>
+            <span>Business Owner</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="quote-icon">
+          <i class="fa-solid fa-quote-left"></i>
+        </div>
+        <p class="testimonial-text">
+          “Professional, fast, and reliable. They understood exactly what our business needed
+          and delivered beyond expectations.”
+        </p>
+        <div class="client-info">
+          <img src="images/client-3.jpg" alt="Client" />
+          <div>
+            <h3>Anita Verma</h3>
+            <span>Marketing Manager</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq-alt">
+  <div class="faq-alt-container">
+    <div class="faq-questions">
+      <span class="section-badge">FAQ</span>
+      <h2>Frequently Asked Questions</h2>
+      <div class="question-list">
+        <div class="question active" data-answer="a1">
+          What services do you offer?
+        </div>
+        <div class="question" data-answer="a2">
+          How long does a project take?
+        </div>
+        <div class="question" data-answer="a3">
+          Do you provide support after delivery?
+        </div>
+        <div class="question" data-answer="a4">
+          How much do your services cost?
+        </div>
+      </div>
+    </div>
+    <div class="faq-answer-box">
+      <div class="answer active" id="a1">
+        <h3>What services do you offer?</h3>
+        <p>
+          We offer web development, digital marketing, SEO, UI/UX design,
+          and business automation solutions tailored to your needs.
+        </p>
+      </div>
+      <div class="answer" id="a2">
+        <h3>How long does a project take?</h3>
+        <p>
+          Most projects take between 1–4 weeks depending on complexity and requirements.
+        </p>
+      </div>
+      <div class="answer" id="a3">
+        <h3>Do you provide support after delivery?</h3>
+        <p>
+          Yes, we provide full post-launch support and maintenance for all clients.
+        </p>
+      </div>
+      <div class="answer" id="a4">
+        <h3>How much do your services cost?</h3>
+        <p>
+          Pricing depends on your project scope. We offer flexible and affordable packages.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="cta-container">
+    <span class="section-badge">Let's Work Together</span>
+    <h2>
+      Ready to Take Your Business to the Next Level?
+    </h2>
+    <p>
+      Whether you're starting a new project or looking to improve an existing one,
+      we're here to help you achieve outstanding results.
+    </p>
+    <div class="cta-buttons">
+      <a href="#contact" class="btn btn-primary">
+        Get Free Consultation
+      </a>
+      <a href="#services" class="btn btn-secondary">
+        Explore Services
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h2>EcoClean</h2>
+      <p>
+        Professional eco-friendly home cleaning services
+        for a healthier and happier living space.
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-services">
+      <h3>Services</h3>
+      <ul>
+        <li>Deep Cleaning</li>
+        <li>Move-In Cleaning</li>
+        <li>Office Cleaning</li>
+        <li>Eco Sanitization</li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>Email: info@ecoclean.com</p>
+      <p>Phone: +91 98765 43210</p>
+      <p>Available: Mon - Sat</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 EcoClean. All Rights Reserved.</p>
+     <div class="footer-links-1">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+     </div>
+  </div>
+</footer>
+
+<script>
+const questions = document.querySelectorAll(".question");
+const answers = document.querySelectorAll(".answer");
+
+questions.forEach(question => {
+    question.addEventListener("click", () => {
+
+        // Remove active classes
+        questions.forEach(q => q.classList.remove("active"));
+        answers.forEach(a => a.classList.remove("active"));
+
+        // Activate clicked question
+        question.classList.add("active");
+
+        // Show corresponding answer
+        const answerId = question.getAttribute("data-answer");
+        document.getElementById(answerId).classList.add("active");
+    });
+});
+</script>
+
+</body>
+</html>
