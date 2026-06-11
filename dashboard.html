@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eco Cleaning Service</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <button class="close-sidebar" id="closeSidebar">
+        ✕
+      </button>
+      <div class="logo">
+        <a href='/'>EcoClean</a>
+      </div>
+
+      <ul class="menu">
+        <li><a href="#" class="active"> Dashboard</a></li>
+        <li><a href='booking.html'>Bookings</a></li>
+        <li><a href='services.html'>Services</a></li>
+        <li><a href='eco packages.html'>ECO Packages</a></li>
+        <li><a href='messages.html'>Messages</a></li>
+        <li><a href='settings.html'>Settings</a></li>
+        <li><a href='logout.html'>Logout</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <div class="topbar">
+        <div class="search-box">
+          <input type="text" placeholder="Search here..." />
+        </div>
+
+        <div class="topbar-right">
+          <div class="top-buttons">
+            <button class="toggle-btn" id="themeToggle">
+              <i class="fa-solid fa-moon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-moon-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"
+                  /></svg></i>
+              <span class="btn-text"></span>
+            </button>
+            <button class="toggle-btn rtl-btn" id="rtlToggle">RTL</button>
+            <button class="bell">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-bell-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"
+                />
+              </svg>
+              <span>4</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="hero">
+          <h1>Welcome Back, Admin</h1>
+          <p>
+            Manage bookings, clients, cleaning schedules, and business performance from one place.
+          </p>
+        </div>
+
+        <div class="stats">
+          <div class="card">
+            <div class="card-top">
+              <h3>Clients</h3>
+              <i class="fa-solid fa-users"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-people-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"
+                  /></svg></i>
+            </div>
+            <h2>1,165</h2>
+            <span>+12% this month</span>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <h3>Bookings</h3>
+              <i class="fa-solid fa-calendar-check"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-calendar-check-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2m-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708"
+                  /></svg></i>
+            </div>
+            <h2>62</h2>
+            <span>+8% this month</span>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <h3>Total Revenue</h3>
+              <i class="fa-solid fa-indian-rupee-sign"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-currency-rupee"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
+                  /></svg></i>
+            </div>
+            <h2>₹3.85L</h2>
+            <span>+15% this month</span>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <h3>Eco Clean Visits</h3>
+              <i class="fa-solid fa-eye"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-eye-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                  <path
+                    d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"
+                  /></svg></i>
+            </div>
+            <h2>16.5K</h2>
+            <span>+20% this month</span>
+          </div>
+        </div>
+
+        <div class="analytics">
+          <div class="analytics-header">
+            <div>
+              <h2>Revenue Overview</h2>
+              <p>Monthly Performance Overview</p>
+            </div>
+          </div>
+
+          <div class="analytics-cards">
+            <div class="mini-card">
+              <h4>Total Revenue</h4>
+              <h3>₹4.85L</h3>
+              <span>+15.2%</span>
+            </div>
+
+            <div class="mini-card">
+              <h4>Active Bookings</h4>
+              <h3>82</h3>
+              <span>+8%</span>
+            </div>
+
+            <div class="mini-card">
+              <h4>New Clients</h4>
+              <h3>36</h3>
+              <span>+12%</span>
+            </div>
+          </div>
+
+          <div class="chart">
+            <div class="bar" style="height: 120px">
+              <span>Jan</span>
+            </div>
+
+            <div class="bar" style="height: 180px">
+              <span>Feb</span>
+            </div>
+
+            <div class="bar" style="height: 140px">
+              <span>Mar</span>
+            </div>
+
+            <div class="bar" style="height: 230px">
+              <span>Apr</span>
+            </div>
+
+            <div class="bar" style="height: 280px">
+              <span>May</span>
+            </div>
+
+            <div class="bar active" style="height: 320px">
+              <span>Jun</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="table-card">
+            <h2>Recent Bookings</h2>
+
+            <table>
+              <tr>
+                <th>Customer</th>
+                <th>Cleaning Type</th>
+                <th>Scheduled Date</th>
+                <th>Status</th>
+              </tr>
+
+              <tr>
+                <td>Rahul</td>
+                <td>Deep Cleaning</td>
+                <td>June 12</td>
+                <td><span class="status confirmed">Confirmed</span></td>
+              </tr>
+
+              <tr>
+                <td>Priya</td>
+                <td>Regular Cleaning</td>
+                <td>June 15</td>
+                <td><span class="status pending">Pending</span></td>
+              </tr>
+
+              <tr>
+                <td>Arjun</td>
+                <td>Move-Out Cleaning</td>
+                <td>June 18</td>
+                <td><span class="status completed">Completed</span></td>
+              </tr>
+            </table>
+          </div>
+
+          <div>
+            <div class="side-card">
+              <h2>Upcoming Appointments</h2>
+
+              <ul>
+                <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2l1.2 4.2L17 7l-3.8 1.1L12 12l-1.2-3.9L7 7l3.8-0.8L12 2z"/>
+                  <path d="M19 10l.8 2.7L22 13l-2.2.6L19 16l-.8-2.4L16 13l2.2-.3L19 10z"/>
+                  <path d="M5 14l.6 2L8 16l-2.4.6L5 19l-.6-2.4L2 16l2.4-.4L5 14z"/>
+                </svg>
+                 Deep Cleaning Service – June 12.
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                   <path d="M12 3l9 8h-3v10h-5v-6H11v6H6V11H3l9-8z"/>
+                   <path d="M19 3l.8 2.2L22 6l-2.2.8L19 9l-.8-2.2L16 6l2.2-.8L19 3z"/>
+                  </svg>
+                  Whole House Cleaning – June 15
+                </li>
+                <li>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M7 2h2v2h6V2h2v2h3a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3V2z"/>
+                  <path d="M4 8h16v12H4V8z"/>
+                  <path d="M12 11c-2 2-2 5 0 7 2-2 2-5 0-7z"/>
+                  <path d="M12 11c3-1 5 1 5 4-3 1-5-1-5-4z"/>
+                 </svg>
+                  Eco-Friendly Cleaning Appointment – June 18.
+                </li>
+                <li>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/>
+                  <path d="M12 6v6l4 2"/>
+                  <path d="M18 3l.6 1.8L20 6l-1.8.6L18 8l-.6-1.4L16 6l1.4-.6L18 3z"/>
+                 </svg>
+                  Pre-Arrival Cleaning – June 20
+                </li>
+              </ul>
+            </div>
+
+            <div class="side-card">
+              <h2>Client Messages</h2>
+
+              <ul>
+                <li>Need cleaning service updates?</li>
+                <li>Can I reschedule my cleaning appointment?</li>
+                <li>Cleaning appointment confirmation required.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="team">
+          <h2>Cleaning Team Performance</h2>
+
+          <table>
+            <tr>
+              <th>Service Provider</th>
+              <th>Completed Jobs</th>
+              <th>Customer Rating</th>
+            </tr>
+
+            <tr>
+              <td>EcoShine Services</td>
+              <td>95</td>
+              <td>4.6</td>
+            </tr>
+
+            <tr>
+              <td>PureHome Cleaners</td>
+              <td>150</td>
+              <td>4.9</td>
+            </tr>
+
+            <tr>
+              <td>NatureFresh Cleaning</td>
+              <td>110</td>
+              <td>4.7</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="actions">
+          <div class="action">
+            <i class="fa-solid fa-plus">
+             <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-plus-circle-dotted"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0q-.264 0-.523.017l.064.998a7 7 0 0 1 .918 0l.064-.998A8 8 0 0 0 8 0M6.44.152q-.52.104-1.012.27l.321.948q.43-.147.884-.237L6.44.153zm4.132.271a8 8 0 0 0-1.011-.27l-.194.98q.453.09.884.237zm1.873.925a8 8 0 0 0-.906-.524l-.443.896q.413.205.793.459zM4.46.824q-.471.233-.905.524l.556.83a7 7 0 0 1 .793-.458zM2.725 1.985q-.394.346-.74.74l.752.66q.303-.345.648-.648zm11.29.74a8 8 0 0 0-.74-.74l-.66.752q.346.303.648.648zm1.161 1.735a8 8 0 0 0-.524-.905l-.83.556q.254.38.458.793l.896-.443zM1.348 3.555q-.292.433-.524.906l.896.443q.205-.413.459-.793zM.423 5.428a8 8 0 0 0-.27 1.011l.98.194q.09-.453.237-.884zM15.848 6.44a8 8 0 0 0-.27-1.012l-.948.321q.147.43.237.884zM.017 7.477a8 8 0 0 0 0 1.046l.998-.064a7 7 0 0 1 0-.918zM16 8a8 8 0 0 0-.017-.523l-.998.064a7 7 0 0 1 0 .918l.998.064A8 8 0 0 0 16 8M.152 9.56q.104.52.27 1.012l.948-.321a7 7 0 0 1-.237-.884l-.98.194zm15.425 1.012q.168-.493.27-1.011l-.98-.194q-.09.453-.237.884zM.824 11.54a8 8 0 0 0 .524.905l.83-.556a7 7 0 0 1-.458-.793zm13.828.905q.292-.434.524-.906l-.896-.443q-.205.413-.459.793zm-12.667.83q.346.394.74.74l.66-.752a7 7 0 0 1-.648-.648zm11.29.74q.394-.346.74-.74l-.752-.66q-.302.346-.648.648zm-1.735 1.161q.471-.233.905-.524l-.556-.83a7 7 0 0 1-.793.458zm-7.985-.524q.434.292.906.524l.443-.896a7 7 0 0 1-.793-.459zm1.873.925q.493.168 1.011.27l.194-.98a7 7 0 0 1-.884-.237zm4.132.271a8 8 0 0 0 1.012-.27l-.321-.948a7 7 0 0 1-.884.237l.194.98zm-2.083.135a8 8 0 0 0 1.046 0l-.064-.998a7 7 0 0 1-.918 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"
+                /></svg>
+           </i>
+            <h4>New Cleaning Booking</h4>
+          </div>
+
+          <div class="action">
+            <i class="fa-solid fa-image"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-image-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"
+                /></svg></i>
+            <h4>Upload Cleaning Photos</h4>
+          </div>
+
+          <div class="action">
+            <i class="fa-solid fa-video"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-camera-reels-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                <path d="M9 6a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                <path
+                  d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"
+                /></svg></i>
+            <h4>Add Service Videos</h4>
+          </div>
+
+          <div class="action">
+            <i class="fa-solid fa-file-invoice"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-receipt"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M1.92.506a.5.5 0 0 1 .434.14L3 1.293l.646-.647a.5.5 0 0 1 .708 0L5 1.293l.646-.647a.5.5 0 0 1 .708 0L7 1.293l.646-.647a.5.5 0 0 1 .708 0L9 1.293l.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .801.13l.5 1A.5.5 0 0 1 15 2v12a.5.5 0 0 1-.053.224l-.5 1a.5.5 0 0 1-.8.13L13 14.707l-.646.647a.5.5 0 0 1-.708 0L11 14.707l-.646.647a.5.5 0 0 1-.708 0L9 14.707l-.646.647a.5.5 0 0 1-.708 0L7 14.707l-.646.647a.5.5 0 0 1-.708 0L5 14.707l-.646.647a.5.5 0 0 1-.708 0L3 14.707l-.646.647a.5.5 0 0 1-.801-.13l-.5-1A.5.5 0 0 1 1 14V2a.5.5 0 0 1 .053-.224l.5-1a.5.5 0 0 1 .367-.27m.217 1.338L2 2.118v11.764l.137.274.51-.51a.5.5 0 0 1 .707 0l.646.647.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.509.509.137-.274V2.118l-.137-.274-.51.51a.5.5 0 0 1-.707 0L12 1.707l-.646.647a.5.5 0 0 1-.708 0L10 1.707l-.646.647a.5.5 0 0 1-.708 0L8 1.707l-.646.647a.5.5 0 0 1-.708 0L6 1.707l-.646.647a.5.5 0 0 1-.708 0L4 1.707l-.646.647a.5.5 0 0 1-.708 0z"
+                />
+                <path
+                  d="M3 4.5a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m8-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5"
+                /></svg></i>
+            <h4>Generate Cleaning Invoice</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">© 2026 EcoClean • Eco-Friendly Care for Every Home</div>
+    </div>
+    <script src="dashboard.js"></script>
+  </body>
+</html>

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Eco Cleaning Service</title>
+
+    <link rel="stylesheet" href="pricing.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+  <nav class="navbar">
+     <div class="logo">
+        <h2>EcoClean</h2>
+      </div>
+      <ul class="nav-links">
+      <li class="dropdown">
+        <a href='/'>Home ▾</a>
+        <div class="dropdown-menu">
+          <a href='index.html'>Home 1</a>
+          <a href="home1.html">Home 2</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li class="mobile-login-wrap">
+        <a class='mobile-login' href='/login'>Login</a>
+      </li>
+      </ul>
+      <div class="nav-buttons">
+      <button class="btn" onclick="enableRTL()">RTL</button>
+       <button class="logo-btn" type="button">
+       <div class="moon"></div>
+      </button>
+    <button class="btn login-btn" onclick="openLoginPage()">
+      Login
+    </button>
+    </div>
+     <div class="menu-btn" id="menuBtn">
+        ☰
+    </div>
+</nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">
+      <i class="fa-solid fa-leaf"></i>
+      <span>Eco-Friendly Home Cleaning</span>
+    </div>
+    <h1>
+      Green Cleaning for a
+      <span>Healthier Home</span>
+    </h1>
+    <p>
+      Experience premium home cleaning with eco-friendly products,
+      transparent pricing, and a commitment to protecting your family,
+      pets, and the environment.
+    </p>
+    <div class="hero-buttons">
+      <a href="#pricing" class="btn btn-primary">View Pricing</a>
+      <a href="#quote" class="btn btn-secondary">Get Free Quote</a>
+    </div>
+    <div class="hero-features">
+      <div class="feature">
+        <div class="feature-icon">
+          <i class="fa-solid fa-seedling"></i>
+        </div>
+        <span>Non-Toxic Products</span>
+      </div>
+
+      <div class="feature">
+        <div class="feature-icon">
+          <i class="fa-solid fa-paw"></i>
+        </div>
+        <span>Pet & Child Safe</span>
+      </div>
+
+      <div class="feature">
+       <div class="feature-icon">
+         <i class="fa-solid fa-shield-halved"></i>
+       </div>
+         <span>No Hidden Fees</span>
+      </div>
+
+      <div class="feature">
+         <div class="feature-icon">
+          <i class="fa-solid fa-lock"></i>
+         </div>
+         <span>Safe & Secure Service</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="images/hero-cleaning.jpg" alt="Eco Friendly Home Cleaning">
+  </div>
+</section>>
+
+<section class="pricing-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">Pricing Plans</span>
+            <h2>Choose the Perfect Cleaning Plan</h2>
+            <p>
+                Transparent pricing with eco-friendly products included in every service.
+                Find the plan that best suits your home's cleaning needs.
+            </p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <div class="plan-icon">
+                    <i data-lucide="home"></i>
+                </div>
+                <h3>Essential Clean</h3>
+                <div class="price">
+                    <span class="currency">₹</span>
+                    <span class="amount">999</span>
+                    <span class="period">/ visit</span>
+                </div>
+                <p class="plan-description">
+                    Ideal for apartments and routine maintenance cleaning.
+                </p>
+                <ul class="features-list">
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>Dusting & surface cleaning</span>
+                    </li>
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>Vacuuming & mopping</span>
+                    </li>
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>Kitchen wipe-down</span>
+                    </li>
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>Bathroom sanitization</span>
+                    </li>
+                    <li>
+                        <i data-lucide="leaf"></i>
+                        <span>Eco-friendly products included</span>
+                    </li>
+                </ul>
+                <a href="#" class="pricing-btn">
+                    Book Now
+                    <i data-lucide="arrow-right"></i>
+                </a>
+            </div>
+            <div class="pricing-card featured">
+                <div class="popular-badge">
+                    <i data-lucide="star"></i>
+                    Most Popular
+                </div>
+                <div class="plan-icon">
+                    <i data-lucide="sparkles"></i>
+                </div>
+                <h3>Standard Clean</h3>
+                <div class="price">
+                    <span class="currency">₹</span>
+                    <span class="amount">1,799</span>
+                    <span class="period">/ visit</span>
+                </div>
+                <p class="plan-description">
+                    Perfect for maintaining a clean, healthy, and fresh home.
+                </p>
+                <ul class="features-list">
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>Everything in Essential</span>
+                    </li>
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>Deep kitchen cleaning</span>
+                    </li>
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>Detailed bathroom cleaning</span>
+                    </li>
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>Glass & mirror cleaning</span>
+                    </li>
+                    <li>
+                        <i data-lucide="shield-check"></i>
+                        <span>Non-toxic sanitization</span>
+                    </li>
+                </ul>
+
+                <a href="#" class="pricing-btn">
+                    Book Now
+                    <i data-lucide="arrow-right"></i>
+                </a>
+            </div>
+            <div class="pricing-card">
+                <div class="plan-icon">
+                    <i data-lucide="badge-check"></i>
+                </div>
+                <h3>Deep Clean</h3>
+                <div class="price">
+                    <span class="currency">₹</span>
+                    <span class="amount">3,499</span>
+                    <span class="period">/ visit</span>
+                </div>
+                <p class="plan-description">
+                    A comprehensive top-to-bottom cleaning for every room.
+                </p>
+
+                <ul class="features-list">
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>Everything in Standard</span>
+                    </li>
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>Baseboards & corners</span>
+                    </li>
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>Appliance exterior cleaning</span>
+                    </li>
+                    <li>
+                        <i data-lucide="check"></i>
+                        <span>Detailed room sanitization</span>
+                    </li>
+                    <li>
+                        <i data-lucide="clock-3"></i>
+                        <span>Extended cleaning session</span>
+                    </li>
+                </ul>
+                <a href="#" class="pricing-btn">
+                    Book Now
+                    <i data-lucide="arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="included-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">What's Included</span>
+            <h2>Every Cleaning Service Includes</h2>
+        </div>
+        <div class="included-wrapper">
+            <div class="included-list">
+                <div class="item">
+                    <i data-lucide="check-circle-2"></i>
+                    <span>Dusting & Surface Cleaning</span>
+                </div>
+                <div class="item">
+                    <i data-lucide="check-circle-2"></i>
+                    <span>Kitchen Counter Sanitization</span>
+                </div>
+                <div class="item">
+                    <i data-lucide="check-circle-2"></i>
+                    <span>Bathroom Deep Cleaning</span>
+                </div>
+                <div class="item">
+                    <i data-lucide="check-circle-2"></i>
+                    <span>Vacuuming & Mopping</span>
+                </div>
+            </div>
+            <div class="included-list">
+                <div class="item">
+                    <i data-lucide="check-circle-2"></i>
+                    <span>Mirror & Glass Cleaning</span>
+                </div>
+                <div class="item">
+                    <i data-lucide="check-circle-2"></i>
+                    <span>Trash Removal</span>
+                </div>
+                <div class="item">
+                    <i data-lucide="check-circle-2"></i>
+                    <span>Eco-Friendly Products</span>
+                </div>
+                <div class="item">
+                    <i data-lucide="check-circle-2"></i>
+                    <span>Quality Inspection</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="addons-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">Add-On Services</span>
+            <h2>Customize Your Cleaning Experience</h2>
+            <p>
+                Enhance your cleaning service with optional add-ons tailored to your home's needs.
+            </p>
+        </div>
+        <div class="addons-table">
+            <div class="addon-row">
+                <div class="addon-info">
+                    <i data-lucide="microwave"></i>
+                    <div>
+                        <h3>Inside Oven Cleaning</h3>
+                        <p>Remove grease, buildup, and food residue.</p>
+                    </div>
+                </div>
+                <span class="addon-price">+ ₹499</span>
+            </div>
+            <div class="addon-row">
+                <div class="addon-info">
+                    <i data-lucide="refrigerator"></i>
+                    <div>
+                        <h3>Inside Refrigerator Cleaning</h3>
+                        <p>Deep cleaning of shelves, drawers, and compartments.</p>
+                    </div>
+                </div>
+                <span class="addon-price">+ ₹399</span>
+            </div>
+            <div class="addon-row">
+                <div class="addon-info">
+                    <i data-lucide="panel-top"></i>
+                    <div>
+                        <h3>Interior Window Cleaning</h3>
+                        <p>Streak-free cleaning for windows and glass panels.</p>
+                    </div>
+                </div>
+                <span class="addon-price">+ ₹599</span>
+            </div>
+            <div class="addon-row">
+                <div class="addon-info">
+                    <i data-lucide="armchair"></i>
+                    <div>
+                        <h3>Upholstery Cleaning</h3>
+                        <p>Refresh sofas, chairs, and fabric furniture.</p>
+                    </div>
+                </div>
+                <span class="addon-price">+ ₹799</span>
+            </div>
+            <div class="addon-row">
+                <div class="addon-info">
+                    <i data-lucide="sparkles"></i>
+                    <div>
+                        <h3>Carpet Deep Cleaning</h3>
+                        <p>Remove dirt, dust, and embedded allergens.</p>
+                    </div>
+                </div>
+                <span class="addon-price">+ ₹999</span>
+            </div>
+            <div class="addon-row">
+                <div class="addon-info">
+                    <i data-lucide="trees"></i>
+                    <div>
+                        <h3>Balcony & Patio Cleaning</h3>
+                        <p>Outdoor area sweeping and surface cleaning.</p>
+                    </div>
+                </div>
+                <span class="addon-price">+ ₹699</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="frequency-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">Cleaning Frequency Discounts</span>
+            <h2>More Visits, More Savings</h2>
+            <p>
+                Choose a recurring cleaning schedule and enjoy exclusive discounts.
+            </p>
+        </div>
+        <div class="discounts-grid">
+            <div class="discount-box">
+                <h3>One-Time</h3>
+                <span class="discount">0%</span>
+                <p>No commitment required</p>
+            </div>
+            <div class="discount-box">
+                <h3>Monthly</h3>
+                <span class="discount">10%</span>
+                <p>Save on regular upkeep</p>
+            </div>
+            <div class="discount-box featured">
+                <div class="popular">Best Value</div>
+                <h3>Bi-Weekly</h3>
+                <span class="discount">15%</span>
+                <p>Most popular choice</p>
+            </div>
+            <div class="discount-box">
+                <h3>Weekly</h3>
+                <span class="discount">20%</span>
+                <p>Maximum savings</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pricing-process">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">How Pricing Works</span>
+            <h2>Simple, Transparent & Flexible</h2>
+            <p>
+                Get a customized cleaning service in just a few simple steps.
+            </p>
+        </div>
+        <div class="process-wrapper">
+            <div class="process-step">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <h3>Select Your Cleaning Plan</h3>
+                    <p>
+                        Choose the package that best matches your home's size
+                        and cleaning requirements.
+                    </p>
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <h3>Add Extra Services</h3>
+                    <p>
+                        Customize your booking with optional add-ons such as
+                        carpet cleaning, window cleaning, or appliance cleaning.
+                    </p>
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <h3>Choose Frequency & Save</h3>
+                    <p>
+                        Schedule weekly, bi-weekly, or monthly cleanings to
+                        unlock recurring service discounts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="guarantee-section">
+    <div class="container">
+        <div class="guarantee-wrapper">
+            <div class="guarantee-left">
+                <span class="section-badge">Satisfaction Guarantee</span>
+                <h2>Your Satisfaction Is Our Priority</h2>
+                <p>
+                    We stand behind every cleaning service we provide. If you're
+                    not completely satisfied, we'll make it right. Our goal is to
+                    deliver a cleaner, healthier, and happier home every time.
+                </p>
+                <a href="#" class="guarantee-btn">
+                    Book With Confidence
+                </a>
+            </div>
+            <div class="guarantee-right">
+                <div class="guarantee-item">
+                    <i data-lucide="shield-check"></i>
+                    <div>
+                        <h3>100% Satisfaction Promise</h3>
+                        <p>
+                            If something isn't cleaned to your expectations,
+                            we'll address it promptly.
+                        </p>
+                    </div>
+                </div>
+                <div class="guarantee-item">
+                    <i data-lucide="refresh-cw"></i>
+                    <div>
+                        <h3>Free Re-Clean</h3>
+                        <p>
+                            We'll revisit and re-clean any missed areas within
+                            our guarantee period.
+                        </p>
+                    </div>
+                </div>
+                <div class="guarantee-item">
+                    <i data-lucide="badge-check"></i>
+                    <div>
+                        <h3>Trained Professionals</h3>
+                        <p>
+                            Experienced cleaners committed to delivering
+                            consistent quality and care.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h2>EcoClean</h2>
+      <p>
+        Professional eco-friendly home cleaning services
+        for a healthier and happier living space.
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-services">
+      <h3>Services</h3>
+      <ul>
+        <li>Deep Cleaning</li>
+        <li>Move-In Cleaning</li>
+        <li>Office Cleaning</li>
+        <li>Eco Sanitization</li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>Email: info@ecoclean.com</p>
+      <p>Phone: +91 98765 43210</p>
+      <p>Available: Mon - Sat</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 EcoClean. All Rights Reserved.</p>
+     <div class="footer-links-1">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+     </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+</script>
+</body>
+</html>

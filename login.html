@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Cleaning Service</title>
+
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ 
+</head>
+<body>
+<section class="login-section">
+  <div class="login-box">
+    <div class="theme-wrapper">
+      <button class="theme-toggle" id="themeToggle">
+        <i class="fa-solid fa-moon"></i>
+        <span></span>
+      </button>
+      <button class="rtl-toggle" id="rtlToggle">
+        RTL
+      </button>
+    </div>
+    <div class="logo" onclick="document.location='index.html'">
+      <a href="#home" class="logo" onclick="document.location='index.html'">EcoClean</a>
+    </div>
+    <h1>Welcome Back</h1>
+    <p class="subtitle">
+      Login to continue your home cleaning.
+    </p>
+    <form>
+      <div class="input-group">
+        <label>Email Address</label>
+        <div class="input-box">
+          <input type="email" placeholder="Enter your email">
+        </div>
+      </div>
+      <div class="input-group">
+        <label>Password</label>
+        <div class="input-box">
+          <input type="password" placeholder="Enter your password">
+        </div>
+      </div>
+      <div class="options">
+        <div class="remember">
+          <input type="checkbox">
+          <span>Remember Me</span>
+        </div>
+        <a href='/forgot'>Forgot Password?</a>
+    </div>
+      <button class="login-btn">
+        Login Account
+      </button>
+    </form>
+    <div class="divider">
+      <span>OR CONTINUE WITH</span>
+    </div>
+    <div class="social-buttons">
+      <button class="social-btn">
+        Google
+      </button>
+      <button class="social-btn">
+        Apple
+      </button>
+    </div>
+    <p class="signup-text">
+      Don't have an account?
+      <a href="#" onclick="document.location='signup.html'">Create Account</a>
+    </p>
+  </div>
+</section>
+<script src="login.js"></script>
+</body>
+</html>

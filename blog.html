@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Cleaning Service</title>
+
+    <link rel="stylesheet" href="blog.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+    <nav class="navbar">
+     <div class="logo">
+        <h2>EcoClean</h2>
+     </div>
+    <ul class="nav-links">
+      <li class="dropdown">
+        <a href='/'>Home ▾</a>
+        <div class="dropdown-menu">
+          <a href='/index.html'>Home 1</a>
+          <a href="home1.html">Home 2</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li class="mobile-login-wrap">
+        <a class='mobile-login' href='/login'>Login</a>
+      </li>
+    </ul>
+    <div class="nav-buttons">
+      <button class="btn" onclick="enableRTL()">RTL</button>
+       <button class="logo-btn" type="button">
+      <div class="moon"></div>
+    </button>
+    <button class="btn login-btn" onclick="openLoginPage()">
+    Login
+    </button>
+    </div>
+     <div class="menu-btn" id="menuBtn">
+        ☰
+    </div>
+</nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <span class="hero-badge">
+      <i class="fa-solid fa-leaf"></i>
+      Eco-Friendly Cleaning Services
+    </span>
+    <h1>
+      A Cleaner Home, A Greener Future
+    </h1>
+    <p>
+      Experience safe, non-toxic, and environmentally responsible home cleaning
+      services designed to protect your family, pets, and the planet.
+    </p>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn-primary">Get a Free Quote</a>
+      <a href="#services" class="btn-secondary">Explore Services</a>
+    </div>
+    <div class="hero-features">
+      <div class="feature">
+       <i class="fa-solid fa-circle-check"></i>
+       <p>100% Eco-Friendly Products</p>
+      </div>
+      <div class="feature">
+       <i class="fa-solid fa-circle-check"></i>
+       <p>Professional & Reliable Team</p>
+      </div>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img
+      src="images/eco-cleaning-hero.jpg"
+      alt="Eco-Friendly Home Cleaning Service"
+    />
+  </div>
+</section>
+
+<section class="intro">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <i class="fa-solid fa-leaf"></i>
+        About Our Green Cleaning
+      </span>
+      <h2>
+        Sustainable Cleaning for a Healthier Home
+      </h2>
+    </div>
+    <div class="intro-content">
+      <p>
+        Eco-friendly home cleaning goes beyond simply keeping your home spotless.
+        It focuses on using non-toxic, biodegradable products and sustainable
+        cleaning methods that protect your family, pets, and the environment.
+      </p>
+      <p>
+        Our professional cleaning team combines effective cleaning techniques with
+        environmentally responsible practices to deliver exceptional results without
+        exposing your living space to harsh chemicals.
+      </p>
+      <p>
+        Whether you need regular maintenance cleaning or a deep cleaning service,
+        we help create a healthier indoor environment while reducing your home's
+        environmental impact.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="eco-friendly">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <i class="fa-solid fa-seedling"></i>
+        Green Cleaning Standards
+      </span>
+      <h2>What Makes a Cleaning Service Eco-Friendly?</h2>
+      <p>
+        Eco-friendly cleaning services prioritize sustainability, health, and
+        environmental responsibility through safe products and efficient practices.
+      </p>
+    </div>
+
+    <div class="eco-grid">
+      <div class="eco-card">
+        <i class="fa-solid fa-leaf"></i>
+        <h3>Non-Toxic Products</h3>
+        <p>
+          We use cleaning solutions free from harsh chemicals, ensuring a safer
+          environment for families, pets, and employees.
+        </p>
+      </div>
+
+      <div class="eco-card">
+        <i class="fa-solid fa-recycle"></i>
+        <h3>Biodegradable Ingredients</h3>
+        <p>
+          Our products break down naturally, reducing pollution and minimizing
+          harm to ecosystems and waterways.
+        </p>
+      </div>
+
+      <div class="eco-card">
+        <i class="fa-solid fa-bottle-water"></i>
+        <h3>Reduced Plastic Waste</h3>
+        <p>
+          We prioritize reusable supplies and sustainable packaging to reduce
+          unnecessary waste.
+        </p>
+      </div>
+
+      <div class="eco-card">
+        <i class="fa-solid fa-droplet"></i>
+        <h3>Water-Efficient Methods</h3>
+        <p>
+          Smart cleaning techniques help conserve water while maintaining
+          exceptional cleaning performance.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="benefits">
+  <div class="container">
+
+    <div class="section-header">
+      <span class="section-tag">
+        <i class="fa-solid fa-heart-circle-check"></i>
+        Why Choose Green Cleaning
+      </span>
+
+      <h2>Benefits of Eco-Friendly Home Cleaning</h2>
+
+      <p>
+        Eco-friendly cleaning provides a healthier lifestyle while reducing environmental impact.
+      </p>
+    </div>
+
+    <div class="benefits-list">
+
+      <div class="benefit-item">
+        <i class="fa-solid fa-wind"></i>
+        <div>
+          <h3>Healthier Indoor Air</h3>
+          <p>Removes harmful chemicals and improves air quality inside your home.</p>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <i class="fa-solid fa-shield-heart"></i>
+        <div>
+          <h3>Safe for Kids & Pets</h3>
+          <p>Uses non-toxic cleaning agents that are completely safe for your family.</p>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <i class="fa-solid fa-earth-americas"></i>
+        <div>
+          <h3>Environment Friendly</h3>
+          <p>Reduces chemical waste and supports a cleaner planet.</p>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <i class="fa-solid fa-house-circle-check"></i>
+        <div>
+          <h3>Protects Home Surfaces</h3>
+          <p>Gentle cleaning methods help extend the life of furniture and floors.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="chemicals">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <i class="fa-solid fa-flask-vial"></i>
+        Health Awareness
+      </span>
+      <h2>Common Harmful Chemicals Found in Traditional Cleaners</h2>
+      <p>
+        Understanding these chemicals helps you make safer and healthier cleaning choices.
+      </p>
+    </div>
+
+    <div class="zigzag">
+      <div class="zigzag-item left">
+        <div class="content">
+          <i class="fa-solid fa-skull-crossbones"></i>
+          <h3>Ammonia</h3>
+          <p>Can irritate eyes, skin, and lungs. Common in glass cleaners.</p>
+        </div>
+      </div>
+
+      <div class="zigzag-item right">
+        <div class="content">
+          <i class="fa-solid fa-skull-crossbones"></i>
+          <h3>Chlorine Bleach</h3>
+          <p>Releases toxic fumes when mixed with other chemicals.</p>
+        </div>
+      </div>
+
+      <div class="zigzag-item left">
+        <div class="content">
+          <i class="fa-solid fa-skull-crossbones"></i>
+          <h3>Phthalates</h3>
+          <p>Found in fragrances and linked to hormonal disruption.</p>
+        </div>
+      </div>
+
+      <div class="zigzag-item right">
+        <div class="content">
+          <i class="fa-solid fa-skull-crossbones"></i>
+          <h3>VOCs</h3>
+          <p>Cause headaches, dizziness, and long-term air pollution issues.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="impact-band">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <i class="fa-solid fa-earth-americas"></i>
+        Environmental Impact
+      </span>
+      <h2>How Eco-Friendly Cleaning Protects the Planet</h2>
+    </div>
+    <div class="impact-flow">
+      <div class="flow-item">
+        <i class="fa-solid fa-flask"></i>
+        <h3>Less Chemicals</h3>
+        <p>Reduces toxic chemical release into water and soil.</p>
+      </div>
+
+      <div class="flow-line"></div>
+
+      <div class="flow-item">
+        <i class="fa-solid fa-recycle"></i>
+        <h3>Waste Reduction</h3>
+        <p>Minimizes plastic packaging and disposable waste.</p>
+      </div>
+
+      <div class="flow-line"></div>
+
+      <div class="flow-item">
+        <i class="fa-solid fa-cloud"></i>
+        <h3>Cleaner Air</h3>
+        <p>Eliminates harmful VOC emissions indoors and outdoors.</p>
+      </div>
+
+      <div class="flow-item">
+        <i class="fa-solid fa-leaf"></i>
+        <h3>Sustainable Living</h3>
+        <p>Supports long-term environmental balance and safety.</p>
+      </div>
+
+      <div class="flow-line"></div>
+
+      <div class="flow-item">
+       <i class="fa-solid fa-wind"></i>
+       <h3>Lower Air Pollution</h3>
+       <p>Reduces harmful chemical emissions released into the air.</p>
+      </div>
+
+      <div class="flow-line"></div>
+
+      <div class="flow-item">
+       <i class="fa-solid fa-seedling"></i>
+       <h3>Eco Balance</h3>
+       <p>Supports long-term environmental sustainability and greener living.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-layered">
+  <div class="container">
+    <div class="cta-layer">
+      <div class="cta-bg-text">
+        ECO CLEANING
+      </div>
+      <div class="cta-panel">
+        <span class="cta-tag">
+          <i class="fa-solid fa-leaf"></i>
+          Sustainable Living Starts Here
+        </span>
+        <h2>
+          Transform Your Home Into a Healthy Space
+        </h2>
+        <p>
+          Book professional eco-friendly cleaning services and experience a safer,
+          chemical-free lifestyle for your family.
+        </p>
+        <div class="cta-actions">
+          <a href="#contact" class="primary-btn">Get Started</a>
+          <a href="blogdtl.html" class="ghost-btn">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h2>EcoClean</h2>
+      <p>
+        Professional eco-friendly home cleaning services
+        for a healthier and happier living space.
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-services">
+      <h3>Services</h3>
+      <ul>
+        <li>Deep Cleaning</li>
+        <li>Move-In Cleaning</li>
+        <li>Office Cleaning</li>
+        <li>Eco Sanitization</li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>Email: info@ecoclean.com</p>
+      <p>Phone: +91 98765 43210</p>
+      <p>Available: Mon - Sat</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 EcoClean. All Rights Reserved.</p>
+     <div class="footer-links-1">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+     </div>
+  </div>
+</footer>
+
+</body>
+</html>
